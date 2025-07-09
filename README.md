@@ -17,10 +17,10 @@ Learn the Go Language
 This development version of GoChat is hardcoded to use 127.0.0.1:5001
 
 To start server:
-* go run server/server.go
+* `go run server/server.go`
 
 To start client:
-* go run client/client.go
+* `go run client/client.go`
 
 Commands for use by the client:
 * `USER|name` - Set the user name in the server directory
