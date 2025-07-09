@@ -40,34 +40,19 @@ To stop the server, press `CTRL-C`.
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-Rust Dependencies:
-* wasm-bindgen = "0.2.100"
-* js-sys = "0.3"
-* serde = { version = "1.0", features = ["derive"] }
-* serde_json = "1.0"
-* regex = "1.11.1"
-* wasm-bindgen-futures = "0.4.50"
-* serde-wasm-bindgen = "0.6.5"
-
-JavaScript Dependencies:
-* "react": "^19.1.0",
-* "react-dom": "^19.1.0",
-* "react-scripts": "5.0.1",
-* "react-virtualized": "^9.22.6",
-* "wasm-gospel-search": "file:../pkg",
+* Go 1.24.4
 
 ## Useful Websites to Learn More
 
 I found these websites useful in developing this software:
 
-* [React Virtualized](https://github.com/bvaughn/react-virtualized)
-* [Rust and WebAssembly](https://rustwasm.github.io/docs/book/)
-* [React](https://react.dev/reference/react)
-* [Serde JSON](https://github.com/serde-rs/json)
+* [Go By Example](https://gobyexample.com/)
+* [Socket Programming in Go](https://www.kelche.co/blog/go/socket-programming/)
+* [Install Go](https://go.dev/doc/install)
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [x] Refactor the code for readability, efficiency, and documentation
-* [x] Host on a website
+* [ ] Add a GUI front-end
+
